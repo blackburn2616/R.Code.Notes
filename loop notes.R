@@ -29,3 +29,8 @@ for(i in names(mtcars)){
   car_m <- c(car_m, mean(mtcars[,i]))
 }
 print(car_m)
+#preserve with single bracket
+mtcars[1]
+
+#simplify with double bracket
+mtcars[[1]]
