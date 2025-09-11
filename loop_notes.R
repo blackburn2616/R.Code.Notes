@@ -39,3 +39,6 @@ mtcars[[1]]
 count(mtcars)
 #somethin else
 
+barplot(mtcars$mpg, names.arg = rownames(mtcars), las = 2, col = "skyblue",
+        main = "MPG for Each Car", xlab = "Car", ylab = "Miles Per Gallon")
+
