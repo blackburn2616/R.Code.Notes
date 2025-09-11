@@ -34,3 +34,8 @@ mtcars[1]
 
 #simplify with double bracket
 mtcars[[1]]
+
+#counts
+count(mtcars)
+
+
